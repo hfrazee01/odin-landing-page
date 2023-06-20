@@ -55,13 +55,14 @@ body {
     color: var(--secondary-text-color);
 }
 
-button {
+.container button {
     background-color: var(--button-color);
     color: white;
+    font-weight: bold;
     border: 0;
     padding: 6px;
-    font-size: 18px;
-    width: 100px;
+    font-size: 17px;
+    width: 125px;
     border-radius: 5px;
 }
 
@@ -74,7 +75,7 @@ button {
     display: flex;
     gap: 35px;
     justify-content: center;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .info-tile {
@@ -89,10 +90,68 @@ button {
     height: 100px;
 }
 
-h1, p {
+h1 {
     text-align: center;
+    font-size: 36px;
+    color: var(--dark_blue);
 }
 
 p {
+    text-align: center;
     margin: 0;
+}
+
+.quote-section {
+    background-color: var(--secondary-text-color);
+    padding: 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: var(--dark_blue);
+}
+
+.source {
+    font-size: 18px;
+    text-align: end;
+    font-weight: bold;
+}
+
+.action-area {
+    background-color: var(--button-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 36px;
+    margin: 80px 80px;
+    border-radius: 5px;
+}
+
+.action-words .call {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
+.action-words .button-call {
+    color: var(--secondary-text-color);
+    text-align: left;
+}
+
+.action-area button {
+    border-color: white;
+    background-color: var(--button-color);
+    color: white;
+    padding: 6px;
+    font-size: 17px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: var(--dark_blue);
+    color: var(--secondary-text-color);
+    text-align: center;
+    padding: 40px;
 }
